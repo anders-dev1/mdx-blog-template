@@ -1,0 +1,60 @@
+/*#region nested lists */
+li ul {
+    margin-top: 0 !important;
+    margin-left: 1.6rem;
+}
+
+li ol {
+    margin-top: 0 !important;
+    margin-left: 1.6rem;
+}
+
+li .ch-codeblock {
+    margin-left: 1.6rem;
+}
+
+/*#endregion nested lists */
+
+.post-h1 {
+    font-family: Roboto, arial, sans-serif;
+    font-weight: bold;
+    font-size: 2.625rem;
+    line-height: 3.25rem;
+    letter-spacing: -0.011rem;
+}
+
+.post-h2 {
+    font-family: Roboto, arial, serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.post-h3 {
+    font-family: Roboto, arial, serif;
+    font-weight: bold;
+    font-size: 1.325rem;
+}
+
+.post-p {
+    font-family: Roboto, arial, serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.ch-codeblock {
+    box-shadow: 0 4px 3px rgb(0 0 0 / 0.07) !important;
+}
+
+p code, li code {
+    font-size: 1rem !important;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: 1rem;
+    color: var(--md-sys-color-primary);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 1rem;
+    background-color: var(--md-sys-color-inverse-on-surface);
+}

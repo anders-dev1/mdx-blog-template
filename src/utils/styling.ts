@@ -1,0 +1,1 @@
+export const maxWidthClass = "max-w-3xl";

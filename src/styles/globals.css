@@ -1,0 +1,9 @@
+@import url(material/theme.css);
+@import url(mdx/post.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: all 500ms;
+}
